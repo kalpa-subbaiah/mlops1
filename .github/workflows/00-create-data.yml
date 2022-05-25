@@ -33,5 +33,5 @@ jobs:
     - name: Create dataset in Azure ML workspace
       run: |
         cd experimentation
-        az ml data create --name diabetes-folder --version 1 --path data
+        az ml data create --name diabetes-mlops --version 1 --path diabetes.csv
 
